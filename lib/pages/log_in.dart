@@ -79,7 +79,8 @@ class _LogInPageState extends State<MyLogInPage> {
                 backgroundColor: Colors.blue,
               ),
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => const HomePage() ));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const HomePage()));
               },
               child: const Text(
                 'Log In',
@@ -90,14 +91,13 @@ class _LogInPageState extends State<MyLogInPage> {
             ),
             TextButton(
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => const SignUp() ));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const SignUp()));
                 },
                 child: const Text('Don\'t have an account? Sign Up.',
                     style: TextStyle(
                       color: Colors.blue,
-                )
-              )
-            ),
+                    ))),
           ],
         ),
       ),

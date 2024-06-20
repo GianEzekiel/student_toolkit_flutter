@@ -35,7 +35,8 @@ class _MySignUpPageState extends State<MySignUpPage> {
           IconButton(
             icon: const Icon(Icons.exit_to_app),
             onPressed: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) => const LogInPage() ));
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const LogInPage()));
             },
           ),
         ],
